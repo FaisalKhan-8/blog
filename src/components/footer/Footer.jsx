@@ -18,11 +18,11 @@ const Footer = () => {
           risus non metus.
         </p>
         <div className={styles.icons}>
-          <Image src='/facebook.png' alt='' width={18} height={18} />
-          <Image src='/instagram.png' alt='' width={18} height={18} />
+          <Image src='/facebook.gif' alt='' width={18} height={18} />
+          <Image src='/instagram.gif' alt='' width={18} height={18} />
           {/* //TODO: change tiktok to linkedin */}
-          <Image src='/tiktok.png' alt='' width={18} height={18} />
-          <Image src='/youtube.png' alt='' width={18} height={18} />
+          <Image src='/linkedin.gif' alt='' width={18} height={18} />
+          <Image src='/youtube.gif' alt='' width={18} height={18} />
         </div>
       </div>
       <div className={styles.links}>
@@ -43,7 +43,7 @@ const Footer = () => {
         <div className={styles.list}>
           <span className={styles.listTitle}>Social</span>
           <Link href='/'>Facebook</Link>
-          <Link href='/'>InstagrAM</Link>
+          <Link href='/'>Instagram</Link>
           <Link href='/'>Linkedin</Link>
           <Link href='/'>Youtube</Link>
         </div>
