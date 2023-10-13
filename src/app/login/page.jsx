@@ -23,6 +23,7 @@ const LoginPage = () => {
         </div>
         <div className={styles.socialButton}>Sign in with Github</div>
         <div className={styles.socialButton}>Sign in with Facebook</div>
+        {/* <div className={styles.socialButton}>Sign in with Facebook</div> */}
       </div>
     </div>
   );
